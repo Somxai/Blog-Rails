@@ -1,0 +1,20 @@
+/* app/assets/stylesheets/header.css */
+.navbar {
+    height: 90px; /* Adjust this value to your desired height */
+  }
+  
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    line-height: 80px; /* Adjust this to vertically center align text */
+  }
+
+  .navbar-brand{
+    font-size: xx-large;
+    font-weight: 100;
+
+  }
+
+  .navbar-nav{
+    font-size: larger;
+  }
+  

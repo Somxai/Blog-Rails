@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @post %>
+
+<div class="bt-post-group flex-container"  >
+
+  <%= link_to "Edit this post", edit_post_path(@post), class:"btn btn-success" %> 
+  <%= link_to "Back to posts", posts_path, class:"btn btn-info" %>
+  <%= button_to "Destroy this post", @post, method: :delete , class:"btn btn-danger" %>
+</div>

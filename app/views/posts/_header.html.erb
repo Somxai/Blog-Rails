@@ -1,0 +1,12 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <%= link_to "Odin Blog", root_path , class: "navbar-brand" %>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <%= link_to "New Post", new_post_path , class:"nav-link active" %>
+        <%= link_to "About", posts_about_path,  class:"nav-link active" %>
+      </div>
+    </div>
+  </div>
+</nav>
